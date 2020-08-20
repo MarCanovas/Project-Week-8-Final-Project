@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Automatic Misogyny Identification
+*Mar Cánovas*
 
-*[Your Cohort, Campus & Date]*
+*Data Analysis Full Time, Barcelona, June 2020]*
 
 ## Content
 - [Project Description](#project-description)
