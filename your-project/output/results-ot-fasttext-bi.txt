@@ -1,0 +1,23 @@
+
+Test score: 0.6534144878387451
+Test accuracy: 0.65625
+Test score: 0.5457292795181274
+Test accuracy: 0.75
+Test score: 0.524879515171051
+Test accuracy: 0.8125
+Test score: 1.0019522905349731
+Test accuracy: 0.46875
+Test score: 0.444649875164032
+Test accuracy: 0.84375
+Test score: 0.6372617483139038
+Test accuracy: 0.65625
+Test score: 0.5717390179634094
+Test accuracy: 0.78125
+Test score: 0.6937422752380371
+Test accuracy: 0.4375
+Test score: 0.6173874735832214
+Test accuracy: 0.6774193644523621
+Test score: 0.6734974384307861
+Test accuracy: 0.6129032373428345
+[0.65625, 0.75, 0.8125, 0.46875, 0.84375, 0.65625, 0.78125, 0.4375, 0.6774193644523621, 0.6129032373428345]Mean validation accuracy: 66.96572601795197%
+[]Mean validation accuracy: nan%
