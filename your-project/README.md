@@ -26,6 +26,8 @@ One of the most frequently targeted groups comprise women, as misogyny is, unfor
 In this project we are going to analyze a custom collected and classified corpus with word-embedding Deep Learning techniques to generate a model that is able to identify misogynous tweets.
 
 ## Hypotheses / Questions
+The main point of this project is the believing that eventhough 
+
 * What data/business/research/personal question you would like to answer?
 * What is the context for the question and the possible scientific or business application?
 * What are the hypotheses you would like to test in order to answer your question?  
@@ -38,7 +40,7 @@ Frame your hypothesis with statistical/data languages (i.e. define Null and Alte
 * If the question cannot be answered with the available data, why not? What data would you need to answer it better?
 
 ## Cleaning
-Describe your full process of data wrangling and cleaning. Document why you chose to fill missing values, extract outliers, or create the variables you did as well as your reasoning behind the process.
+For the cleaning process each of the messages was set to lowercase, removed the special characters from the hashtags and usernames but keeping the actual word so we can set the relation that has with the text and every link or image was also completely removed from the message.
 
 ## Analysis
 * Overview the general steps you went through to analyze your data in order to test your hypothesis.
@@ -56,7 +58,9 @@ Describe your full process of data wrangling and cleaning. Document why you chos
 * Interpret your findings in terms of the questions you try to answer.
 
 ## Future Work
-Unfortunately, I'm sure that many more situations where women will be indiscriminately harassed online, so increasing the dataset range is a never ending process.
+Unfortunately, I'm sure that many more situations where women will be indiscriminately harassed online, so increasing the dataset range to cover every area possible could become a never ending process.
+
+Also, there are many different Machine Learning and Deep Learning techniques available that could overpass the accuracy obtained with the selected models, so trying a variety of new algorithms is also a good approach to improve our actual results.
 
 
 ## Workflow
