@@ -63,13 +63,11 @@ Outline the workflow you used in your project. What were the steps?
 How did you test the accuracy of your analysis and/or machine learning algorithm?
 
 ## Organization
-How did you organize your work? Did you use any tools like a trello or kanban board?
+The workflow was represented on a trello project.
 
-What does your repository look like? Explain your folder and file structure.
+The repository is structured in directories that contain each type of documents that is used or generated in order to obtain the results presented in this project.
 
 ## Links
-Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project.
-
 
 [Repository](https://github.com/MarCanovas/Project-Week-8-Final-Project/)  
 [Slides](https://docs.google.com/presentation/d/1MwYAKmKscyIQbriB6rpH5VNpvduWsNNiS2oBdFeWvc8/edit?usp=sharing)  
