@@ -26,12 +26,9 @@ One of the most frequently targeted groups comprise women, as misogyny is, unfor
 In this project we are going to analyze a custom collected and classified corpus with word-embedding Deep Learning techniques to generate a model that is able to identify misogynous tweets.
 
 ## Hypotheses / Questions
-The main point of this project is the believing that eventhough 
+The main point of this project is the believing that eventhough sex oriented hate is considered in normal hate speech detectors, they do not entail all the non aggresive traits that misogyny entails, and that should also be considered as hate towards someone and should not be allowed on social networks.
 
-* What data/business/research/personal question you would like to answer?
-* What is the context for the question and the possible scientific or business application?
-* What are the hypotheses you would like to test in order to answer your question?  
-Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
+Regarding this, it arised the question of the 
 
 ## Dataset
 * Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
@@ -62,6 +59,7 @@ Unfortunately, I'm sure that many more situations where women will be indiscrimi
 
 Also, there are many different Machine Learning and Deep Learning techniques available that could overpass the accuracy obtained with the selected models, so trying a variety of new algorithms is also a good approach to improve our actual results.
 
+Furthermore, as an advance improvement, we could consider the option of classifying each message into the different sub-categories that non aggresive misogyny can be divided into.
 
 ## Workflow
 The starting point of this project was the collection of data and defining which topics we wanted to cover with it. When this was defined, we created the databases with their queries to call the Twitter API. Then, once the dataset is defined, I preprocessed every message and set up the script that transformed it into a word-embedding vector and created a model. Once everything is set, I tested it all and analysed the results. 
