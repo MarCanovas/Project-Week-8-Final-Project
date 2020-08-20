@@ -3,7 +3,7 @@
 # Automatic Misogyny Identification
 *Mar Cánovas*
 
-*Data Analysis Full Time, Barcelona, June 2020]*
+*Data Analysis Full Time, Barcelona, June 2020*
 
 ## Content
 - [Project Description](#project-description)
@@ -19,7 +19,11 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show.
+Online social networks allow powerless people to gain enormous amounts of control over particular people's lives and profit from the anonymity or social distance that the Internet provides in order to harass other people. 
+
+One of the most frequently targeted groups comprise women, as misogyny is, unfortunately, a reality in our society. However, although great efforts have recently been made to identify misogyny, it is still difficult to distinguish as it can sometimes be very subtle and deep, signifying that the use of statistical approaches is not sufficient. Moreover, as Spanish is spoken worldwide, context and cultural differences can complicate this identification.
+
+In this project we are going to analyze a custom collected and classified corpus with word-embedding Deep Learning techniques to generate a model that is able to identify misogynous tweets.
 
 ## Hypotheses / Questions
 * What data/business/research/personal question you would like to answer?
