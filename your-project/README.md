@@ -56,14 +56,16 @@ Describe your full process of data wrangling and cleaning. Document why you chos
 * Interpret your findings in terms of the questions you try to answer.
 
 ## Future Work
-Address any questions you were unable to answer, or any next steps or future extensions to your project.
+Unfortunately, I'm sure that many more situations where women will be indiscriminately harassed online, so increasing the dataset range is a never ending process.
+
 
 ## Workflow
-Outline the workflow you used in your project. What were the steps?
-How did you test the accuracy of your analysis and/or machine learning algorithm?
+The starting point of this project was the collection of data and defining which topics we wanted to cover with it. When this was defined, we created the databases with their queries to call the Twitter API. Then, once the dataset is defined, I preprocessed every message and set up the script that transformed it into a word-embedding vector and created a model. Once everything is set, I tested it all and analysed the results. 
+
+The accuracy was measured as an average of 10 executions of a 10 fold cross-validation on each model created.
 
 ## Organization
-The workflow was represented on a trello project.
+The workflow was represented on the trello project linked below.
 
 The repository is structured in directories that contain each type of documents that is used or generated in order to obtain the results presented in this project.
 
