@@ -28,31 +28,22 @@ In this project we are going to analyze a custom collected and classified corpus
 ## Hypotheses / Questions
 The main point of this project is the believing that eventhough sex oriented hate is considered in normal hate speech detectors, they do not entail all the non aggresive traits that misogyny entails, and that should also be considered as hate towards someone and should not be allowed on social networks.
 
-Regarding this, it arised the question of the 
-
 ## Dataset
-* Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* Did you build your own datset? If so, did you use an API or a web scraper? PRovide the relevant scripts in your repo.
-* For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* If the question cannot be answered with the available data, why not? What data would you need to answer it better?
+The data was collected by various queries to the Twitter API automatized from a SQL database. Once the messages were collected on the database, I classified them through a custom API and return the messages classified to the database. 
+
+There were a total of 8 different queries regarding 8 different topics surrounding misogynoys issues.
 
 ## Cleaning
 For the cleaning process each of the messages was set to lowercase, removed the special characters from the hashtags and usernames but keeping the actual word so we can set the relation that has with the text and every link or image was also completely removed from the message.
 
 ## Analysis
-* Overview the general steps you went through to analyze your data in order to test your hypothesis.
-* Document each step of your data exploration and analysis.
-* Include charts to demonstrate the effect of your work.
-* If you used Machine Learning in your final project, describe your feature selection process.
+After the preprocessing, the messages were transformed into three different word-embedding vectors (Glove, FastText and L-Model) and inputed into three different Deep Learning models (CNN, LSTM and Bi-LSTM).
 
-## Model Training and Evaluation
-*Include this section only if you chose to include ML in your project.*
-* Describe how you trained your model, the results you obtained, and how you evaluated those results.
 
 ## Conclusion
-* Summarize your results. What do they mean?
-* What can you say about your hypotheses?
-* Interpret your findings in terms of the questions you try to answer.
+The results obtained by the trained models overpass the common baseline of accuracy in this kind of workshops which is 70%. 
+
+Furthermore, misogyny is not an exact science and even different people could disagree to classify a message into misogynous or not, so we cannot expect a machine to do so. 
 
 ## Future Work
 Unfortunately, I'm sure that many more situations where women will be indiscriminately harassed online, so increasing the dataset range to cover every area possible could become a never ending process.
